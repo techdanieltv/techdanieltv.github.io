@@ -1,5 +1,15 @@
 rm -r assets *.js *.html *.css
-cp -r ../GestioneFinanze_/www/browser/* .
+cp -r ../GestioneFinanze/www/browser/* .
+echo -n "<!-- 404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; URL=/" />
+  </head>
+  <body>
+  </body>
+</html>
+" > 404.html
 git add .
 git commit -a -m "..."
 git push
