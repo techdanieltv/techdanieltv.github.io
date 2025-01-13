@@ -1,6 +1,6 @@
 rm -r assets *.js *.html *.css
 cp -r ../GestioneFinanze/www/browser/* .
-echo -n "<!-- 404.html -->
+echo "<!-- 404.html -->
 <!DOCTYPE html>
 <html>
   <head>
